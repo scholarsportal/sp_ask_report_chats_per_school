@@ -32,7 +32,9 @@ chats_DataFrame = get_nbr_of_chats_per_school_for_this_day(year=2020, month=3, d
 chats_DataFrame.to_excel("chats_per_school.xlsx", index=True)
 
 ```
-
+<p float="left">
+<img src="images/mockup.png" width="300"/>
+</p>
 ## Code of Conduct
 
 Everyone interacting in the project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the [PyPA Code of Conduct](https://www.pypa.io/en/latest/code-of-conduct/).
