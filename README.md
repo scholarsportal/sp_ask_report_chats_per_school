@@ -30,7 +30,7 @@ from sp_ask_report_chats_per_school import get_nbr_of_chats_per_school_for_this_
 
 chats_DataFrame = get_nbr_of_chats_per_school_for_this_day(year=2020, month=3, day=11)
 chats_DataFrame.to_excel("chats_per_school.xlsx", index=True)
-
+# see mockup image below
 ```
 <p float="left">
 <img src="images/mockup.png" width="300"/>
