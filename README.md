@@ -1,4 +1,4 @@
-# Ask Schools
+# Ask Ask Report Chats per School
 
 [
 ![PyPI](https://img.shields.io/pypi/v/sp_ask_report_chats_per_school.svg)
