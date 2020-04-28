@@ -19,6 +19,33 @@ This package helps to filter Chats
 pip install sp_ask_report_chats_per_school
 ```
 
+## Requirement
+
+lh3api is a requirement for this package[ lh3api configuation files](https://gitlab.com/libraryh3lp/libraryh3lp-sdk-python/) need to be installed first.
+
+
+In ~/.lh3/config::
+
+    [default]
+    server = libraryh3lp.com
+    timezone = UTC
+    salt = "you should probably change this"
+
+The `salt` is used when generating system-level utility accounts.
+This is not something you do often.  If your `salt` is unique, your
+passwords will be unique.
+
+In ~/.lh3/credentials::
+
+    [default]
+    username = <ADMIN_USER>
+    password = <ADMIN_PASS>
+
+    [test]
+    username = <TEST_USER>
+    password = <TEST_PASS>
+
+
 ## Usage
 
 
