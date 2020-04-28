@@ -65,3 +65,13 @@ chats_DataFrame.to_excel("chats_per_school.xlsx", index=True)
 ## Code of Conduct
 
 Everyone interacting in the project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the [PyPA Code of Conduct](https://www.pypa.io/en/latest/code-of-conduct/).
+
+## Todo
+
+1.  Add tests
+2.  ~~Add column for Date~~
+3.  Add Makefile
+4.  ~~Add pypi~~
+5.  ~~Create python package~~
+6.  ~~Add screenshot to Readme.md~~
+7.  Create a README.rst for pypi
